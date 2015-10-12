@@ -1,0 +1,16 @@
+<template name="header">
+  <div class="ui fixed secondary pointing menu">
+    <div class="ui container">
+      <div href="#" class="header item">
+        <i class="rocket icon"></i>
+      </div>
+      <div class="right menu">
+        {{#if currentUser}}
+        <a class="ui item icon logout" href="#">
+          <i class="power icon"></i>
+        </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,16 @@
+<head>
+  <title>primer</title>
+</head>
+
+<template name="layout">
+  {{> header}}
+  <div class="ui grid main">
+    <div class="three wide column">
+    </div>
+    <div class="ten wide column">
+    {{> yield}}
+    </div>
+    <div class="three wide column">
+    </div>
+  </div>
+</template>

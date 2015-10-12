@@ -1,0 +1,55 @@
+html {
+  height: 101%;
+}
+
+body {
+  background: #F5F5F5;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+a {
+  outline: 0 !important;
+}
+
+textarea {
+    resize: none !important;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Semantic */
+
+.ui.basic.buttons {
+  border-radius: 2px;
+}
+
+.ui.secondary.menu {
+  background: white;
+}
+.ui.secondary.menu .header.item {
+  border-right: none;
+}
+.ui.secondary.pointing.menu .active.item {
+  font-weight: normal;
+}
+
+.ui.card > .content:first-child {
+  border-bottom: 1px solid #ddd;
+}
+.ui.grid > .column > .card {
+  width: 100%;
+}
+
+/* Border radius */
+.ui.menu,
+.ui.segments,
+.ui.cards > .card,
+.ui.card {
+  border-radius: 2px;
+}
