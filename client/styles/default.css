@@ -4,8 +4,6 @@ html {
 
 body {
   background: #F5F5F5;
-  padding-top: 30px;
-  padding-bottom: 0px;
 }
 
 a {
@@ -29,20 +27,21 @@ textarea {
   border-radius: 2px;
 }
 
-.ui.secondary.menu {
+.ui.menu.navbar {
   background: white;
 }
-.ui.secondary.menu .header.item {
-  border-right: none;
+
+.ui.menu.navbar .header.item {
+  border-right: none !important;
 }
-.ui.secondary.pointing.menu .active.item {
+
+.ui.menu.navbar .active.item {
   font-weight: normal;
 }
 
-.ui.card > .content:first-child {
-  border-bottom: 1px solid #ddd;
-}
-.ui.grid > .column > .card {
+/* Vertical Menu */
+
+.ui.vertical.menu {
   width: 100%;
 }
 
