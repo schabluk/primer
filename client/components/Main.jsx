@@ -1,12 +1,9 @@
-var Canvas = React.createClass({
+var Main = React.createClass({
   componentDidMount() {
-    var c = Snap(this.getDOMNode())
-    var flow = Canvas.Flow()
-    console.log(flow)
   },
   render() {
     return (
-      <svg ref="foo"></svg>
+      <p>Hello</p>
     )
   }
 })
@@ -14,8 +11,7 @@ var Canvas = React.createClass({
 if (Meteor.isClient) {
   Template.main.onRendered(function() {
     React.render(
-      <Canvas />,
-      document.getElementById('canvas')
+      <Main />, document.getElementById('main')
     )
   })
 }
