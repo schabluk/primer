@@ -1,6 +1,6 @@
 # primer
 
-boilerplate for meteor / react / semantic-ui application
+Boilerplate for meteor / react / semantic-ui application
 
 ## installation
 
