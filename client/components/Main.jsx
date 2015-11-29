@@ -10,7 +10,7 @@ var Main = React.createClass({
 
 if (Meteor.isClient) {
   Template.main.onRendered(function() {
-    React.render(
+    ReactDOM.render(
       <Main />, document.getElementById('main')
     )
   })
