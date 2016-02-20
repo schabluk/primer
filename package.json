@@ -1,0 +1,25 @@
+{
+  "name": "primer",
+  "version": "1.0.0",
+  "description": "Boilerplate for meteor / react / semantic-ui application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schabluk/primer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schabluk/primer/issues"
+  },
+  "homepage": "https://github.com/schabluk/primer#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-mounter": "^1.1.0"
+  }
+}
